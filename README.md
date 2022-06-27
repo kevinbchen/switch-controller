@@ -5,6 +5,8 @@ There are 2 main parts:
 - The **transmitter** unit acts as a usb host for the Xbox controller; it reads in the controller input and periodically sends the input data to the receiver via bluetooth.
 - The **receiver** unit connects to the Nintendo Switch (via the dock) and emulates a 3rd-party controller with the given input data.
 
+![20200507_003424](https://user-images.githubusercontent.com/2881968/175892978-a62cf80e-5c9a-436b-a24d-054c34099c26.jpg)
+
 Note that there are commercial 3rd-party controllers and wireless adapters that achieve the same thing much more conveniently; this was mainly a fun side project to get back into electronics and 3d-printing. Of course, having control over the software does enable things like a turbo mode for specific buttons (to hit rocks and chop trees more easily in Animal Crossing!).
 
 Although the software is currently written for an Xbox One Controller, other usb controllers should also work, assuming the usb host shield library support them. In addition, the transmitter can also be replaced by a PC, opening up potential for some basic automation.
